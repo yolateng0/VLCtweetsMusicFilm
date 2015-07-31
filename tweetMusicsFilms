@@ -3,7 +3,7 @@
 #
 #  tweetMusicsFilms.py
 #  
-#  Copyright 2013 yolateng0 <yoldc22@free.fr>
+#  Copyright 2013 yolateng0 <contact@yolateng0.nohost.me>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -98,7 +98,7 @@ class VLCMonitor():
             elif vlc_data['type'] == 'video':
                  return [True, 'regarde', parse_path(vlc_data['path'])]
             else:
-                 return (True, 'Rien de jouer sur VLC', '')
+                 return (True, 'Rien de joué sur VLC', '')
         else:
             return [False, 'VLC non lancé', '']
     
